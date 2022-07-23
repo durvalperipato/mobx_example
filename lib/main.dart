@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mobx_imc/observables/future/future_page.dart';
 import 'package:mobx_imc/observables/modelo_observado/modelo_observado_page.dart';
 
 void main() {
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
       // home: const CounterCodeGenPage(),
       // home: const ImcPage(),
       // home: const ObservableListPage(),
-      home: const ModeloObservadoPage(),
+      // home: const ModeloObservadoPage(),
+      home: const FuturePage(),
     );
   }
 }
